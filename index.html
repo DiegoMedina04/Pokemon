@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemons</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Pokemon GO</h1>
+        <input type="text" id="buscar_pokemon" placeholder="Buscar pokemon" list="options_pokemons">
+        <datalist id="options_pokemons"></datalist>
+        
+        <div class="types_pokemons"></div>
+
+        <div class="pokemon-container" id="pokemon-container"></div>
+
+        <button class="request_pokemon">Traer mas</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
